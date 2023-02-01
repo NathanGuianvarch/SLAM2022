@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{94D1ABCF-1B73-494A-B8FA-99466F8F46F1}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>SLAM.Exercice_8</StartupObject>
+    <StartupObject>SLAM.Exercice_9</StartupObject>
     <RootNamespace>SLAM</RootNamespace>
     <AssemblyName>SLAM</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -69,8 +69,13 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Exercice_8.vb" />
-    <Compile Include="Exercice_9.vb" />
+    <Compile Include="02_Syntaxe\Exercice_1.vb" />
+    <Compile Include="02_Syntaxe\Exercice_2.vb" />
+    <Compile Include="02_Syntaxe\Exercice_3.vb" />
+    <Compile Include="02_Syntaxe\Exercice_4.vb" />
+    <Compile Include="02_Syntaxe\Exercice_7.vb" />
+    <Compile Include="02_Syntaxe\Exercice_8.vb" />
+    <Compile Include="02_Syntaxe\Exercice_9.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
