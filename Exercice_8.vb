@@ -11,7 +11,7 @@
             i = Integer.Parse(Console.ReadLine())
             If i > nombre Then
                 Console.ForegroundColor = ConsoleColor.Red
-                Console.WriteLine("Le nombre que vous avez saisis est trop grand...")
+                Console.WriteLine("Le nombre que vous avez saisis est trop grand... ")
             End If
             If i < nombre Then
                 Console.ForegroundColor = ConsoleColor.Red
