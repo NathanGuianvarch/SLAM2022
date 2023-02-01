@@ -6,9 +6,9 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{94D1ABCF-1B73-494A-B8FA-99466F8F46F1}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>SlamTest45.Module1</StartupObject>
-    <RootNamespace>SlamTest45</RootNamespace>
-    <AssemblyName>SlamTest45</AssemblyName>
+    <StartupObject>SLAM.Exercice_8</StartupObject>
+    <RootNamespace>SLAM</RootNamespace>
+    <AssemblyName>SLAM</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>Console</MyType>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
@@ -22,7 +22,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>SlamTest45.xml</DocumentationFile>
+    <DocumentationFile>SLAM.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -32,7 +32,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>SlamTest45.xml</DocumentationFile>
+    <DocumentationFile>SLAM.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup>
@@ -69,12 +69,13 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="08.vb" />
-    <Compile Include="Module1.vb" />
+    <Compile Include="Exercice_8.vb" />
+    <Compile Include="Exercice_9.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
       <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <Compile Include="My Project\Resources.Designer.vb">
       <AutoGen>True</AutoGen>
